@@ -1,5 +1,8 @@
 {
   "name": "Philips_Imagesense",
-  "app_id": "",
-  "type": "ionic1"
+  "app_id": "b359127e",
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*"
+  ]
 }

@@ -1,0 +1,33 @@
+<ion-view title="Additional Details" id="page7" style="background-color:#032659;">
+  <ion-content padding="true" class="has-header">
+    <h3 id="additionalDetails-heading3" style="color:#FFFFFF;font-weight:lighter;">Fill in few details to complete image analysis..</h3>
+    <form id="additionalDetails-form5" class="list">
+      <label class="item item-select" id="additionalDetails-select1">
+        <span class="input-label">Gender</span>
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Not-Specified</option>
+        </select>
+      </label>
+      <label class="item item-select" id="additionalDetails-select2">
+        <span class="input-label">Age Group</span>
+        <select>
+          <option>0 - 15</option>
+          <option>16 - 30</option>
+          <option>31 - 50</option>
+          <option>50 - 65</option>
+          <option>66 +</option>
+        </select>
+      </label>
+      <ion-checkbox id="additionalDetails-checkbox2">Is this a visible injury?</ion-checkbox>
+      <ion-checkbox id="additionalDetails-checkbox3">Any previous medical history?</ion-checkbox>
+      <label class="item item-input" id="additionalDetails-input10">
+        <span class="input-label">Time in days</span>
+        <input type="text" placeholder="days affected">
+      </label>
+      <ion-toggle toggle-class="toggle-positive" id="additionalDetails-toggle5">Auto-submit Report</ion-toggle>
+      <a ui-sref="philipsImageSense.reportDetail()" id="additionalDetails-button8" style="border-radius:0px 0px 0px 0px;" class="button button-dark button-large button-block">Submit Analysis</a>
+    </form>
+  </ion-content>
+</ion-view>
