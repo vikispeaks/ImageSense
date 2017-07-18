@@ -21,3 +21,174 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+// Custom Font
+
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_3_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_3_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_3_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_3_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_3_0.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_5_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_5_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_5_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_5_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_5_0.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_10_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_10_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_10_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_10_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_10_0.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_11_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_11_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_11_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_11_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_11_0.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_A_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_A_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_A_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_A_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_A_0.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_B_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_B_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_B_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_B_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_B_0.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_F_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_F_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_F_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_F_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_F_0.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_6_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_6_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_6_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_6_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_6_0.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_7_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_7_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_7_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_7_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_7_0.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_2_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_2_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_2_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_2_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_2_0.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_9_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_9_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_9_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_9_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_9_0.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_8_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_8_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_8_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_8_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_8_0.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_4_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_4_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_4_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_4_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_4_0.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_0_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_0_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_0_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_0_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_0_0.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_C_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_C_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_C_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_C_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_C_0.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Centrale Sans';
+  src: url('../fonts/centrale-sans/2E3D5C_D_0.eot');
+  src: url('../fonts/centrale-sans/2E3D5C_D_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/centrale-sans/2E3D5C_D_0.woff2') format('woff2'),
+    url('../fonts/centrale-sans/2E3D5C_D_0.woff') format('woff'),
+    url('../fonts/centrale-sans/2E3D5C_D_0.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+body, h1,h2,h3,h4,h5,h6,p,span {
+    font-family: 'Centrale Sans' !important;
+}
+
+
+/*end:Importing Font family - Centrale Sans*/
+
