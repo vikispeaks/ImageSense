@@ -9955,9 +9955,13 @@ span {
 
 .nav-bar-block ion-header-bar {
   background: #032659 !important; }
-  .nav-bar-block ion-header-bar div, .nav-bar-block ion-header-bar button > i, .nav-bar-block ion-header-bar button > span > span {
-    color: #ffffff !important; }
-    .nav-bar-block ion-header-bar div span > button, .nav-bar-block ion-header-bar button > i span > button, .nav-bar-block ion-header-bar button > span > span span > button {
+  .nav-bar-block ion-header-bar div {
+    color: #ffffff !important;
+    font-size: 1.6em !important; }
+    .nav-bar-block ion-header-bar div span > button {
       color: #ffffff !important; }
+  .nav-bar-block ion-header-bar button > i,
+  .nav-bar-block ion-header-bar button > span > span {
+    color: #ffffff !important; }
 
 /*end:Importing Font family - Centrale Sans*/

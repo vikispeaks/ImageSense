@@ -15,15 +15,15 @@ $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
 
-$light : #fff !default;
-$stable : #f8f8f8 !default;
-$positive : #209e91 !default;
-$calm : #2dacd1 !default;
-$balanced : #90b900 !default;
-$energized : #dfb81c !default;
-$assertive : #e85656 !default;
-$royal : #886aea !default;
-$dark : #444 !default;
+$light: #fff !default;
+$stable: #f8f8f8 !default;
+$positive: #209e91 !default;
+$calm: #2dacd1 !default;
+$balanced: #90b900 !default;
+$energized: #dfb81c !default;
+$assertive: #e85656 !default;
+$royal: #886aea !default;
+$dark: #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
@@ -194,12 +194,20 @@ span {
 .nav-bar-block {
   ion-header-bar {
     background: #032659 !important;
-    div, button > i, button > span > span {
-      color:#ffffff !important;
-      span > button {
+    div {
+      color: #ffffff !important;
+      font-size: 1.6em !important;
+      span>button {
         color: #ffffff !important;
       }
     }
+    button>i,
+    button>span>span {
+      color: #ffffff !important;
+    }
+
   }
 }
+
+
 /*end:Importing Font family - Centrale Sans*/
